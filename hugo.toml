@@ -18,6 +18,16 @@ theme = "hello-friend-ng"
         alt = "OCSS Logo"
         circle = false
 
+    [params.footer]
+        socials = true
+#        trademark = 2023
+#        rss = true
+#        copyright = true
+#        author = true
+
+        topText = ["REMOVE THIS TEXT IN config.toml"]
+        bottomText = []
+
     [[params.social]]
         name = "email"
         url  = "mailto:contact@ocss.nz"
@@ -46,6 +56,6 @@ theme = "hello-friend-ng"
         name = "discord"
         url  = "https://discord.com/invite/bpmFsDbprD"
 
-    [[params.social]]
-        name = "ousa-clubs"
-        url  = "https://www.ousa.org.nz/clubsandsocs/clubs/clubs-list/otago-computing-students-society"
+#    [[params.social]]
+#        name = "ousa-clubs"
+#        url  = "https://www.ousa.org.nz/clubsandsocs/clubs/clubs-list/otago-computing-students-society"
