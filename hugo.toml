@@ -1,4 +1,4 @@
-baseURL = 'https://beta.ocss.nz/'
+baseURL = 'https://ocss.nz/'
 languageCode = 'en-NZ'
 title = 'Otago Computing Students Society'
 theme = "hello-friend-ng"
@@ -8,27 +8,44 @@ theme = "hello-friend-ng"
     enableSharingButtons = true
 
     [params.logo]
+#        path = "/images/logo.svg"
         logoMark = ">"
         logoText = "$ cd /home/"
-        logoHomeLink = "/"
-        # Set true to remove the logo cursor entirely.
-        # logoCursorDisabled = false
-        # Set to a valid CSS color to change the cursor in the logo.
-        # logoCursorColor = "#67a2c9"
-        # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-        # logoCursorAnimate = "2s"
-        # Append the current url pathname to logoText
-        # logoCursorPathname = true
+        logoCursorDisabled = true
 
     [params.portrait]
-        path = "/img/image.jpg"
+        path = "/images/logo.svg"
         alt = "Portrait"
-        maxWidth = "50px"
+        maxWidth = "400px"
 
     [[params.social]]
         name = "email"
-        url  = "mailto:nobody@example.com"
+        url  = "mailto:contact@ocss.nz"
 
     [[params.social]]
         name = "github"
-        url  = "https://github.com/"
+        url  = "https://github.com/Otago-Computing-Students-Society"
+
+    [[params.social]]
+        name = "facebook"
+        url  = "https://www.facebook.com/OtagoCSS"
+
+    [[params.social]]
+        name = "instagram"
+        url  = "https://www.instagram.com/otagocss/"
+
+    [[params.social]]
+        name = "tiktok"
+        url  = "https://www.tiktok.com/@otago.css"
+
+    [[params.social]]
+        name = "linkedin"
+        url  = "https://nz.linkedin.com/company/otago-computing-students-society"
+
+    [[params.social]]
+        name = "discord"
+        url  = "https://discord.com/invite/bpmFsDbprD"
+
+    [[params.social]]
+        name = "ousa-clubs"
+        url  = "https://www.ousa.org.nz/clubsandsocs/clubs/clubs-list/otago-computing-students-society"
