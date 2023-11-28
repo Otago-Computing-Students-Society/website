@@ -15,8 +15,8 @@ theme = "hello-friend-ng"
 
     [params.portrait]
         path = "/images/logo.svg"
-        alt = "Portrait"
-        maxWidth = "400px"
+        alt = "OCSS Logo"
+        circle = false
 
     [[params.social]]
         name = "email"
