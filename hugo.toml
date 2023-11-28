@@ -1,3 +1,34 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://beta.ocss.nz/'
+languageCode = 'en-NZ'
+title = 'Otago Computing Students Society'
+theme = "hello-friend-ng"
+
+[params]
+    enableThemeToggle = true
+    enableSharingButtons = true
+
+    [params.logo]
+        logoMark = ">"
+        logoText = "$ cd /home/"
+        logoHomeLink = "/"
+        # Set true to remove the logo cursor entirely.
+        # logoCursorDisabled = false
+        # Set to a valid CSS color to change the cursor in the logo.
+        # logoCursorColor = "#67a2c9"
+        # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+        # logoCursorAnimate = "2s"
+        # Append the current url pathname to logoText
+        # logoCursorPathname = true
+
+    [params.portrait]
+        path = "/img/image.jpg"
+        alt = "Portrait"
+        maxWidth = "50px"
+
+    [[params.social]]
+        name = "email"
+        url  = "mailto:nobody@example.com"
+
+    [[params.social]]
+        name = "github"
+        url  = "https://github.com/"
