@@ -25,12 +25,8 @@ theme = "hello-friend-ng"
 #        copyright = true
 #        author = true
 
-        topText = [
-            "Change theme submodule back to main branch once footer-socials is merged",
-        ]
-        bottomText = [
-            "Remove this text in config.toml",
-        ]
+        topText = []
+        bottomText = []
 
     [[params.social]]
         name = "email"
