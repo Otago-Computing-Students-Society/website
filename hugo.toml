@@ -7,9 +7,16 @@ timeZone = "Pacific/Auckland"
 
 sectionPagesMenu = "main"
 
+#copyright = ""
+
 [params]
     enableThemeToggle = true
     enableSharingButtons = true
+
+#    description = ""
+#    homeSubtitle = ""
+#    keywords = ""
+#    images = [""]
 
     [params.author]
         name = "Otago Computing Students Society"
