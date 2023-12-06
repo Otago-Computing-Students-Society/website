@@ -44,7 +44,7 @@ copyright = "All Rights Reserved"
 #        rss = true
 
         topText = []
-        bottomText = ["Powered by <a href=\"https://cloudcannon.com/\">CloudCannon</a>"]
+        bottomText = ["Powered by [CloudCannon](https://cloudcannon.com/)"]
 
     [[params.social]]
         name = "email"
