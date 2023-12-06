@@ -15,6 +15,7 @@ sectionPagesMenu = "main"
 #        path = "/images/logo.svg"
         logoMark = ">"
         logoText = "$ cd /home/"
+        logoCursorPathname = true
         logoCursorDisabled = true
 
     [params.portrait]
