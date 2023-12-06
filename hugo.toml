@@ -7,19 +7,21 @@ timeZone = "Pacific/Auckland"
 
 sectionPagesMenu = "main"
 
-#copyright = ""
+copyright = "All Rights Reserved"
+
+[author]
+    name = "Otago Computing Students Society"
 
 [params]
     enableThemeToggle = true
     enableSharingButtons = true
 
+    titleSeparator = "|"
+
 #    description = ""
 #    homeSubtitle = ""
 #    keywords = ""
 #    images = [""]
-
-    [params.author]
-        name = "Otago Computing Students Society"
 
     [params.logo]
 #        path = "/images/logo.svg"
@@ -35,13 +37,14 @@ sectionPagesMenu = "main"
 
     [params.footer]
         socials = true
-#        trademark = 2023
+
+        trademark = 2023
+        author = true
+        copyright = true
 #        rss = true
-#        copyright = true
-#        author = true
 
         topText = []
-        bottomText = []
+        bottomText = ["Powered by <a href=\"https://cloudcannon.com/\">CloudCannon</a>"]
 
     [[params.social]]
         name = "email"
