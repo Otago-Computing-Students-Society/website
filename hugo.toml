@@ -11,6 +11,9 @@ sectionPagesMenu = "main"
     enableThemeToggle = true
     enableSharingButtons = true
 
+    [params.author]
+        name = "Otago Computing Students Society"
+
     [params.logo]
 #        path = "/images/logo.svg"
         logoMark = ">"
