@@ -1,9 +1,11 @@
-baseURL = 'https://ocss.nz/'
-title = 'Otago Computing Students Society'
+baseURL = "https://ocss.nz/"
+title = "Otago Computing Students Society"
 theme = "hello-friend-ng"
-languageCode = 'en-NZ'
-timeZone = 'Pacific/Auckland'
-sectionPagesMenu = 'main'
+
+languageCode = "en-NZ"
+timeZone = "Pacific/Auckland"
+
+sectionPagesMenu = "main"
 
 [params]
     enableThemeToggle = true
