@@ -20,6 +20,9 @@ copyright = "All Rights Reserved"
 #    keywords = ""
 #    images = [""]
 
+    customCSS = ["css/ocss-name.css"]
+#    customJS  = []
+
     [params.author]
         name = "Otago Computing Students Society"
 

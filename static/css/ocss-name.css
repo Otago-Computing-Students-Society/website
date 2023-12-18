@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Pixeltype";
+  font-style:  normal;
+  font-display: auto;
+  src: url("../fonts/Pixeltype.woff2") format("woff2");
+}
+
+.site-title {
+  font-family: Pixeltype, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
