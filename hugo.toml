@@ -34,6 +34,7 @@ copyright = "All Rights Reserved"
         path = "/images/logo.svg"
         alt = "OCSS Logo"
         circle = false
+        maxWidth = "50%"
 
     [params.footer]
         socials = true
