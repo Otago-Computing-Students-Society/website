@@ -9,9 +9,6 @@ sectionPagesMenu = "main"
 
 copyright = "All Rights Reserved"
 
-[author]
-    name = "Otago Computing Students Society"
-
 [params]
     enableThemeToggle = true
     enableSharingButtons = true
@@ -22,6 +19,9 @@ copyright = "All Rights Reserved"
 #    homeSubtitle = ""
 #    keywords = ""
 #    images = [""]
+
+    [params.author]
+        name = "Otago Computing Students Society"
 
     [params.logo]
 #        path = "/images/logo.svg"
