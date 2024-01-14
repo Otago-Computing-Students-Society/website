@@ -48,6 +48,10 @@ copyright = "All Rights Reserved"
         bottomText = ["Powered by [CloudCannon](https://cloudcannon.com/)"]
 
     [[params.social]]
+        name = "ousa"
+        url  = "https://www.ousa.org.nz/clubsandsocs/clubs/clubs-list/otago-computing-students-society"
+
+    [[params.social]]
         name = "email"
         url  = "mailto:contact@ocss.nz"
 
@@ -74,7 +78,3 @@ copyright = "All Rights Reserved"
     [[params.social]]
         name = "discord"
         url  = "https://discord.com/invite/bpmFsDbprD"
-
-#    [[params.social]]
-#        name = "ousa-clubs"
-#        url  = "https://www.ousa.org.nz/clubsandsocs/clubs/clubs-list/otago-computing-students-society"
