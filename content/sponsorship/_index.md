@@ -14,4 +14,4 @@ Our club is also flexible and can support your organisation in a variety of ways
 - Your logo on our merch and/or posters
 - A representative from your organisation speaking at one of our events
 
-A prospectus covering all of our basic sponsorship options can be found [here](test.com). Alternatively, if you would like a different arrangement then please do not hesitate to [email us](contact@ocss.nz).
+A prospectus covering all of our basic sponsorship options can be found [here](../../static/documents/prospectus.pdf). Alternatively, if you would like a different arrangement then please do not hesitate to [email us](contact@ocss.nz).
