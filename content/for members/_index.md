@@ -3,7 +3,7 @@ title = "For Members"
 date = "2024-01-15"
 +++
 
-![bbq](/images/bbq2.jpg)
+![bbq](/images/bbq5.jpg)
 
 ## Joining the club
 We strongly recommend that you register for the club officially via the OUSA - there's no $$ or formal commitment required! However, if you don't then you're still of course more than welcome to participate in our events and Discord community. You can stay up to date via the community or our Facebook/Instagram.
