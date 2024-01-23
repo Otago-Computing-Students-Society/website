@@ -9,7 +9,13 @@ sectionPagesMenu = "main"
 
 copyright = "All Rights Reserved"
 
+[markup.goldmark.renderer]
+    unsafe = true
+
 [params]
+    customCSS = ["/css/footer-logo.css"]
+    customJS  = []
+
     enableThemeToggle = true
     enableSharingButtons = true
 
@@ -45,7 +51,7 @@ copyright = "All Rights Reserved"
 #        rss = true
 
         topText = []
-        bottomText = ["Powered by [CloudCannon](https://cloudcannon.com/)"]
+        bottomText = ["Powered by: [<img src=\"/images/cloudcannon-logo.svg\" alt=\"CloudCannon\" class=\"footer-logo\">](https://cloudcannon.com/)"]
 
     [[params.social]]
         name = "ousa"
