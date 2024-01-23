@@ -25,9 +25,9 @@ copyright = "All Rights Reserved"
 
     [params.logo]
 #        path = "/images/logo.svg"
-        logoMark = ">"
-        logoText = "$ cd /home/"
-        logoCursorPathname = true
+#        logoMark = "$"
+        logoText = "cd /home/ocss"
+        logoCursorPathname = false
         logoCursorDisabled = true
 
     [params.portrait]
