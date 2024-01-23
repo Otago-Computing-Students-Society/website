@@ -15,7 +15,7 @@ If you haven't already registered through OUSA, then please do so [here](https:/
 We moderate a friendly and inclusive [Discord](https://discord.com/invite/bpmFsDbprD) community where you can discuss anything — whether that's your favourite DBMS, the course that you're struggling with, or just what you had for dinner last night. There's also lots of helpful and (reasonably) knowledgeable people in the community to answer any of your burning code questions.
 
 #### Other Social Media Pages
-We have a [Facebook](https://www.facebook.com/OtagoCSS), [Instagram](https://www.instagram.com/otagocss/), [LinkedIn](https://nz.linkedin.com/company/otago-computing-students-society) and [TikTok](https://www.tiktok.com/@otago.css)! Please show them some support. 😀
+We have a [Facebook](https://www.facebook.com/OtagoCSS), [Instagram](https://www.instagram.com/otagocss/), [LinkedIn](https://nz.linkedin.com/company/otago-computing-students-society), and [TikTok](https://www.tiktok.com/@otago.css)! Please show them some support. 😀
 
 ## Resources
 
