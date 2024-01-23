@@ -23,7 +23,7 @@ We have a [Facebook](https://www.facebook.com/OtagoCSS), [Instagram](https://www
 We have an active [GitHub](https://github.com/Otago-Computing-Students-Society) with a few repos. All members are more than welcome to contribute to these.
 
 #### Coding!
-If your programming is looking a little *rust*y, then give these a go! (And if you have any recommendations for more sites, please flick them over to @niamhinator on Discord.)
+If your programming is looking a little *rust*y, then give these a go! (And if you have any recommendations for more sites, please flick them over to @Exec on our Discord community.)
 - [CodingBat](https://codingbat.com/java) - fuss-free Python and Java
 - [Leetcode](https://leetcode.com/) - the best-known site for prepping for technical interviews
 - [W3Schools](https://www.w3schools.com/quiztest/) - also includes some brilliant language guides
