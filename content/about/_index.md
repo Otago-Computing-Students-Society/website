@@ -10,7 +10,7 @@ For over 5 years, OCSS has striven to provide friendly and engaging opportunitie
 Our 2024 exec team includes:
 - President: Niamh Avery
 - Treasurer: Thomas Prior
-- Secretary: Shyamalima (Shreya) Das
+- Secretary: Shyamalima "Shreya" Das
 - IT Manager: Aaron Rumpler
 - General Executive: Jackson Kelly
 
