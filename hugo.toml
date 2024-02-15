@@ -78,6 +78,10 @@ copyright = "All Rights Reserved"
         url  = "https://www.tiktok.com/@otago.css"
 
     [[params.social]]
+        name = "youtube"
+        url = "https://www.youtube.com/@OtagoCSS"
+
+    [[params.social]]
         name = "linkedin"
         url  = "https://nz.linkedin.com/company/otago-computing-students-society"
 
