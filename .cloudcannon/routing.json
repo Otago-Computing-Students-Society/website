@@ -1,0 +1,9 @@
+{
+	"routes": [
+		{
+			"from": "/register",
+			"to": "https://clubs.ousa.org.nz/join/otago-computing-students-society",
+			"status": 307
+		}
+	]
+}
