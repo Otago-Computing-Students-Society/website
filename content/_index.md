@@ -1,6 +1,8 @@
 +++
-date = 2024-01-23
+date = 2024-02-20
 +++
+
+{{< button link="/register" >}}Register as a Member{{< /button >}}
 
 We are the Otago Computing Students Society (OCSS) — an OUSA-affiliated club run by computing students for all students studying or interested in computing at the University of Otago. We strive to be inclusive of students from all areas of computing (including those with computing majors - Computer Science, Information Science, Data Science and Software Engineering) and to present them with a range of opportunities to develop their personal and professional networks and technical and non-technical skills.
 

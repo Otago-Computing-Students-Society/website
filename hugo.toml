@@ -13,7 +13,7 @@ copyright = "All Rights Reserved"
     unsafe = true
 
 [params]
-    customCSS = ["/css/footer-logo.css"]
+    customCSS = ["/css/footer-logo.css", "/css/button.css"]
     customJS  = []
 
     enableThemeToggle = true

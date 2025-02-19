@@ -1,0 +1,21 @@
+.pill-button {
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 48px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pill-button:hover {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pill-button:active {
+    transform: scale(0.95);
+}
