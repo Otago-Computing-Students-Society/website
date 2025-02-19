@@ -2,7 +2,7 @@
 	"routes": [
 		{
 			"from": "/register",
-			"to": "https://clubs.ousa.org.nz/join/otago-computing-students-society",
+			"to": "https://www.sporty.co.nz/viewform/339121?returnUrl=https://ocss.nz/",
 			"status": 307
 		}
 	]
