@@ -1,0 +1,5 @@
+{{ $social := index (where .Site.Params.social "name" ( .Get "social" )) 0 }}
+
+<a href="{{ $social.url }}" class="pill-button {{ .Get "class" }}">
+    {{ partial "svg.html" $social }}{{ .Inner | default $social.name }}
+</a>
