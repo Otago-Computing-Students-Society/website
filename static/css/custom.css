@@ -1,0 +1,19 @@
+.socials-header {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.socials-header + * {
+    margin-top: 0;
+}
+
+.site-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer-logo {
+    display: inline;
+    vertical-align: middle;
+    height: 24px;
+}
