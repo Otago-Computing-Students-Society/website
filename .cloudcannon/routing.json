@@ -4,6 +4,10 @@
 			"from": "/register",
 			"to": "https://www.sporty.co.nz/viewform/339121?returnUrl=https://ocss.nz/",
 			"status": 307
+		},
+		{
+			"from": "/jam",
+			"to": "https://forms.gle/G3aqwKT4SqVmqVxp8"
 		}
 	]
 }
