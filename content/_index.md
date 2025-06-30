@@ -3,6 +3,9 @@ date = 2024-02-20
 +++
 
 {{< pill-button link="/register" >}}Register as a Member{{< /pill-button >}}{{< social-pill-button social="Discord" >}}Join our Discord{{< /social-pill-button >}}
+
+## Up-coming Events
+
 {{< pill-button link="/jam" >}}Join the Game Jam!{{< /pill-button >}}
 
 ## Follow our Socials {.socials-header}
