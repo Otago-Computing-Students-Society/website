@@ -7,6 +7,16 @@
     margin-top: 0;
 }
 
+.events-header {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.events-header + * {
+    margin-top: 0;
+}
+
 .site-title {
     text-align: center;
     margin-bottom: 0;
