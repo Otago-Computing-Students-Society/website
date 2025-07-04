@@ -7,7 +7,7 @@ date = 2024-01-23
 
 ## Game Jam
 
-Are you interested in game development? You're in luck, because we're organising a game jam for the 26th and 27th of July! This is a free event and is open to everyone in Dunedin; students and non-students, and even absolute beginners. **The winning team will receive $250 in Steam vouchers**, plus we'll have a few smaller prizes and catered lunches, thanks to the generous sponsorship of **[Deep Field Games](https://www.deepfield.games){:target="_blank"}**!
+Are you interested in game development? You're in luck, because we're organising a game jam for the 26th and 27th of July! This is a free event and is open to everyone in Dunedin; students and non-students, and even absolute beginners. **The winning team will receive $250 in Steam vouchers**, plus we'll have a few smaller prizes and catered lunches, thanks to the generous sponsorship of **[Deep Field Games](https://www.deepfield.games)**!
 
 **You can sign up for the event [here](/jam).**
 
