@@ -4,7 +4,7 @@ date = 2025-14-07
 +++
 
 {{< video
-  src="/images/.mp4"
+  src="/images/download-instructions.mp4"
   width="600"
 >}}
 
