@@ -1,6 +1,6 @@
 +++
 title = "Workshop"
-date = 2025-14-07
+date = 2024-01-23
 +++
 
 {{< video
