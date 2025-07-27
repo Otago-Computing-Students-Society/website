@@ -1,0 +1,5 @@
+{{ if not (.Page.Store.Get "game-jam") }}
+    {{ .Page.Store.Set "game-jam" true }}
+    <link rel="stylesheet" href="/css/game-jam.css">
+    <script src="/js/game-jam.js"></script>
+{{ end }}

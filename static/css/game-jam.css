@@ -1,0 +1,121 @@
+.preload * {
+    animation-duration: 0s !important;
+    transition: background-color 0s, opacity 0s, color 0s, width 0s, height 0s, padding 0s, margin 0s !important;
+}
+
+.sub-container {
+    padding: 40px;
+    padding-bottom: 80px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content-frame {
+    float: right;
+    min-width: 100%;
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.submission-contents {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+canvas.submission-contents {
+    position: absolute;
+    /* pointer-events: none; */
+}
+
+img.submission-contents {
+    position: relative;
+    box-shadow: 0 3px 6px black;
+}
+
+iframe.submission-contents {
+    position: absolute;
+    box-shadow: 0 3px 6px black;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    backdrop-filter: blur(0px);
+    background: transparent;
+    background-size: contain;
+    transition: all .1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blur {
+    /* transform: scale(1.025);  */
+    backdrop-filter: blur(5px);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.overlay-text {
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    animation: fade-in 0.3s ease-in-out;
+}
+
+.spinner {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+
+    animation: rotation 1s linear infinite, fade-in 0.3s ease-in-out;
+
+    border-left: 15px solid rgb(235, 235, 235);
+    border-right: 15px solid rgb(235, 235, 235);
+    border-bottom: 15px solid rgb(235, 235, 235);
+    border-top: 15px solid rgb(120, 120, 120);
+
+    border-radius: 100%;
+}
+
+@keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.invisible {
+    opacity: 0;
+    animation: fade-out 0.15s ease-in-out;
+}
+
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
