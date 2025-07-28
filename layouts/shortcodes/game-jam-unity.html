@@ -1,10 +1,10 @@
 {{ partial "game-jam-resources.html" . }}
 
 <div class="project-container">
-    <div>
+    <!-- <div>
         <h2>{{ .Get "name" }}</h2>
         <p>{{ .Get "desc" }}</p>
-    </div>
+    </div> -->
     <div class="content-frame pointer" id="{{ .Get "id" }}">
         <img class="submission-contents" src="{{ path.Join (.Get "path" | relURL) (.Get "img") }}">
         <div class="overlay">
@@ -13,6 +13,6 @@
         </div>
     </div>
     <script>
-        setupUnityFrame(document.getElementById("{{ .Get "id" }}"), "{{ .Get "path" | relURL }}")
+        setupUnityFrame(document.getElementById("{{ .Get "id" }}"), "{{ .Get "buildname" }}", "{{ .Get "path" | relURL }}")
     </script>
 </div>

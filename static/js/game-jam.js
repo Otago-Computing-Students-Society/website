@@ -2,15 +2,15 @@
 document.body.classList.add('preload');
 setTimeout(() => document.body.classList.remove('preload'), 100);
 
-function setupUnityFrame(frame, folder, useUnityWebExtension = false) {
+function setupUnityFrame(frame, buildName, folder, useUnityWebExtension = false) {
     frame.onmouseover = () => showOverlay(frame);
     frame.onmouseout = () => hideOverlay(frame);
-    frame.onclick = () => instantiateUnity(frame, folder, useUnityWebExtension);
+    frame.onclick = () => instantiateUnity(frame, buildName, folder, useUnityWebExtension);
 
     frame.offsetHeight = (frame.offsetWidth * 9 / 16) + "px";
 }
 
-function instantiateUnity(frame, folder, useUnityWebExtension) {
+function instantiateUnity(frame, buildName, folder, useUnityWebExtension) {
     frame.onmouseover = null;
     frame.onmouseout = null;
     frame.onclick = null;
@@ -26,6 +26,7 @@ function instantiateUnity(frame, folder, useUnityWebExtension) {
     frame.appendChild(child);
     
     child.contentWindow.loadData = {
+        buildName: buildName,
         folder: folder,
         parent: frame,
         cleanup: () => overlay.remove(),
