@@ -67,12 +67,18 @@ function instantiateGodot(frame, htmlPageLoc) {
     child.appendChild(script);
 }
 
-function setupEmscriptenFrame(frame, folder, file) {
+function setupEmscriptenFrame(frame, folder, file, weirdAspect) {
     frame.onmouseover = () => showOverlay(frame);
     frame.onmouseout = () => hideOverlay(frame);
-    frame.onclick = () => instantiateEmscripten(frame, folder, file);
+    frame.onclick = () => instantiateEmscripten(frame, folder, file, weirdAspect);
 
-    resizeCanvas(frame);
+    if (weirdAspect) {
+        frame.classList.add("weird-aspect-ratio");
+        frame.querySelector(".overlay").classList.add("weird-aspect-ratio");
+        frame.querySelector("img").classList.add("weird-aspect-ratio");
+    }
+
+    // resizeCanvas(frame);
 }
 
 function showOverlay(frame) {
@@ -87,42 +93,32 @@ function hideOverlay(frame) {
     frame.querySelector(".overlay").classList.remove("pointer");
 }
 
-function instantiateEmscripten(frame, folder, file) {
+function instantiateEmscripten(frame, folder, file, weirdAspect) {
     frame.onmouseover = null;
     frame.onmouseout = null;
     frame.onclick = null;
 
     frame.querySelector(".overlay-text").classList.add("invisible");
     frame.querySelector(".spinner").classList.remove("invisible");
+    var overlay = frame.querySelector(".overlay");
 
-    var canvas = frame.querySelector("canvas");
+    var child = document.createElement('iframe');
+    child.src = `${folder}/${file}`;
+    child.classList.add("submission-contents");
+    if (weirdAspect) {
+        child.classList.add("weird-aspect-ratio");
+    }
+    
+    frame.appendChild(child);
 
-    canvas.addEventListener("wheel", () => {
-        canvas.style.pointerEvents = "none";
-    });
+    child.contentWindow.loadData = {
+        parent: frame,
+        cleanup: () => overlay.remove()
+    };
 
-    frame.addEventListener("click", () => {
-        canvas.style.pointerEvents = "all";
-        canvas.requestPointerLock();
-    });
-
-    import(`${folder}/${file}`).then(module => {
-        var locateFile = (path, prefix) => {
-            return `${folder}/${path}`;
-        }
-
-        module.default({ canvas: canvas, locateFile: locateFile }).then(engine => {
-            resizeCanvas(frame);
-            frame.querySelector(".overlay").remove();
-            canvas.requestPointerLock();
-
-            // Have to keep track of focus, otherwise we need to press escape twice
-            document.addEventListener("pointerlockchange", () => {
-                if (document.pointerLockElement === canvas) engine.ccall('focusin', 'void', []);
-                else engine.ccall('focusout', 'void', []);
-            });
-        });
-    });
+    var script = child.contentDocument.createElement("script");
+    script.textContent = "window.loadData.cleanup();";
+    child.contentDocument.body.appendChild(script);
 }
 
 function resizeCanvas(frame) {

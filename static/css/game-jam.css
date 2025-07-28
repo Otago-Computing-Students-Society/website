@@ -99,6 +99,16 @@ iframe.submission-contents {
     border-radius: 100%;
 }
 
+.weird-aspect-ratio {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 45vw !important;
+    height: 50vw !important;
+    max-width: 45vw !important;
+    max-height: 50vw !important;
+}
+
 @keyframes rotation {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }

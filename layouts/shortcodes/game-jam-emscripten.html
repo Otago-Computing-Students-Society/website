@@ -1,19 +1,14 @@
 {{ partial "game-jam-resources.html" . }}
 
 <div class="project-container">
-    <div>
-        <h2>{{ .Get "name" }}</h2>
-        <p>{{ .Get "desc" }}</p>
-    </div>
     <div class="content-frame pointer" id="{{ .Get "id" }}">
         <img class="submission-contents" src="{{ path.Join (.Get "path" | relURL) (.Get "img") }}">
-        <canvas class="submission-contents" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
         <div class="overlay">
             <div class="spinner invisible"></div>
             <p class="overlay-text invisible">Click to load</p>
         </div>
     </div>
     <script>
-        setupEmscriptenFrame(document.getElementById("{{ .Get "id" }}"), "{{ .Get "path" | relURL }}", "{{ .Get "file" }}")
+        setupEmscriptenFrame(document.getElementById("{{ .Get "id" }}"), "{{ .Get "path" | relURL }}", "{{ .Get "file" }}", "{{ .Get "weirdaspect" }}")
     </script>
 </div>
