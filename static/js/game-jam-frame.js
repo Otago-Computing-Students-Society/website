@@ -26,6 +26,8 @@ script.onload = () => {
             // resizeCanvas(frame);
             // frame.querySelector(".overlay").remove();
             window.loadData.cleanup();
+
+            document.body.onkeydown = (evt) => { if (evt.code == "KeyF") unityInstance.SetFullscreen(1) };
         }).catch((message) => {
             alert(message);
         });
