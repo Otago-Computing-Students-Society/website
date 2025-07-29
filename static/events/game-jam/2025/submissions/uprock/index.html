@@ -35,6 +35,8 @@ canvas.emscripten { border: 0px none; background-color: black;
         e.preventDefault();
       }, false);
 
+      canvasElement.onkeydown = (evt) => { if (evt.code == "KeyF") canvasElement.requestFullscreen() };
+
       var Module = {
         print(...args) {},
         canvas: canvasElement,
