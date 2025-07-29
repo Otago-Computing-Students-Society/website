@@ -1,0 +1,15 @@
+<div>
+  <h1 style="margin-bottom: 0">{{ .Get "heading" }}</h1>
+  <p style="margin-top: 0">by {{ .Get "by" }}</p>
+  <details name="accordion" style="margin-top: 40px; margin-bottom: 20px">
+    <summary>More information</summary>
+    
+    <ul>
+      <i>{{ .Get "hook" }}</i>
+    </ul>
+
+    <ul>
+      {{ with .Get "extra" }}{{ .| safeHTML }}{{ end }}
+    </ul>
+  </details>
+</div>
