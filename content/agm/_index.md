@@ -1,7 +1,9 @@
 +++
-title = '2025 AGM'
-date = 2024-01-23
+title = '2026 AGM'
+date = 2026-12-31
 +++
+
+<!-- This page needs to be updated for 2026. -->
 
 ## Register as an OCSS Member
 
