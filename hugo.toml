@@ -2,7 +2,7 @@ baseURL = "https://ocss.nz/"
 title = "Otago Computing Students Society"
 theme = "hello-friend-ng"
 
-languageCode = "en-NZ"
+locale = "en-NZ"
 timeZone = "Pacific/Auckland"
 
 sectionPagesMenu = "main"
