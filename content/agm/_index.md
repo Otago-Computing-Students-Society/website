@@ -1,9 +1,10 @@
 +++
-title = '2026 AGM'
-date = 2026-10-08
+title = '2027 AGM' 
+date = 2027-12-31
 +++
 
-<!-- This page needs to be updated for 2026. -->
+<!-- NOTE: The date field should be set to the day of the next AGM. -->
+<!-- This page needs to be updated for 2027. -->
 
 ## Register as an OCSS Member
 
